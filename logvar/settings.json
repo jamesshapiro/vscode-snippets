@@ -1,0 +1,16 @@
+{
+  "multiCommand.commands": [  
+    {
+      "command": "multiCommand.selectLineAndLog",
+      "sequence": [
+        "cursorLineEnd",
+        "editor.action.trimTrailingWhitespace",
+        "cursorHomeSelect",
+        "editor.action.insertSnippet",
+        {
+          "name": "Log Variable"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+    "Log Variable": {
+        "prefix": "logvar",
+        "body": [
+            "console.log(`$TM_SELECTED_TEXT=${$TM_SELECTED_TEXT}`);"
+        ],
+        "description": "Log selected variable"
+    }
+}

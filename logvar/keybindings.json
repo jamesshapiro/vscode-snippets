@@ -1,0 +1,9 @@
+[
+    {
+      "key": "ctrl+alt+p",
+      "command": "extension.multiCommand.execute",
+      "args": { "command": "multiCommand.selectLineAndLog" },
+      "when": "editorTextFocus"
+    }
+  ]
+  
