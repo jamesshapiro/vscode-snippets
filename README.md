@@ -25,6 +25,8 @@ Example script installation steps:
 
 4. Go to keybindings.json and include the following block:
 
+Cursor: Ctrl+Shift+P -> "keybindings"
+
 ```json
 [
     {

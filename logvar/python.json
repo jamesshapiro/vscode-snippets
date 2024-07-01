@@ -5,5 +5,12 @@
             "print(f'{$TM_SELECTED_TEXT=}');"
         ],
         "description": "Log selected variable"
+    },
+    "Log JSON": {
+        "prefix": "logobject",
+        "body": [
+            "print(f'{json.dumps($TM_SELECTED_TEXT)=}');"
+        ],
+        "description": "Log selected object"
     }
 }

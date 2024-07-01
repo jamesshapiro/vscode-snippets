@@ -11,6 +11,18 @@
           "name": "Log Variable"
         }
       ]
+    },
+    {
+      "command": "multiCommand.selectLineAndLogObject",
+      "sequence": [
+        "cursorLineEnd",
+        "editor.action.trimTrailingWhitespace",
+        "cursorHomeSelect",
+        "editor.action.insertSnippet",
+        {
+          "name": "Log Object"
+        }
+      ]
     }
   ]
 }

@@ -5,5 +5,12 @@
             "console.log(`$TM_SELECTED_TEXT=${$TM_SELECTED_TEXT}`);"
         ],
         "description": "Log selected variable"
+    },
+    "Log Object": {
+        "prefix": "logobject",
+        "body": [
+            "console.log(`$TM_SELECTED_TEXT=${JSON.stringify($TM_SELECTED_TEXT)}`);"
+        ],
+        "description": "Log selected object"
     }
 }

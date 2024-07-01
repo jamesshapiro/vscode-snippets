@@ -4,6 +4,12 @@
       "command": "extension.multiCommand.execute",
       "args": { "command": "multiCommand.selectLineAndLog" },
       "when": "editorTextFocus"
+    },
+    {
+      "key": "ctrl+alt+j",
+      "command": "extension.multiCommand.execute",
+      "args": { "command": "multiCommand.selectLineAndLogObject" },
+      "when": "editorTextFocus"
     }
   ]
   
