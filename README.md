@@ -4,7 +4,7 @@ Example script installation steps:
 
 1. Install multi-line command
 2. Go to default settings and try to open it in JSON. If you can't do so in a non-read only mode, then navigate to multi-line command section of settings and click the "open settings JSON (paraphrasing)" button
-3. Include the following block:
+3. Include the following block: Ctrl+Shift+P -> ? ("multiline?")
 
 ```json
 "multiCommand.commands": [
@@ -25,7 +25,7 @@ Example script installation steps:
 
 4. Go to keybindings.json and include the following block:
 
-Cursor: Ctrl+Shift+P -> "keybindings"
+Cursor: Ctrl+Shift+P -> "keybindings" (cursor?) OR "Open Keyboard Shortcuts" (VSCode classic)
 
 ```json
 [
